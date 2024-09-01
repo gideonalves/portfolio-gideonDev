@@ -1,0 +1,32 @@
+.menu__checkbox {
+    cursor: pointer;
+    height: 2rem;
+    opacity: 0;
+    position: absolute;
+    right: 2.5rem;
+    width: 2rem;
+    z-index: 1;
+}
+
+
+.menu__checkbox:checked + .menu__items {
+    left: 0;
+}
+
+.menu__checkbox:checked ~ .menu__button .menu__button-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu__checkbox:checked ~ .menu__button .menu__button-bar:nth-child(1) {
+    transform: rotate(-45deg) scale(1.2) translateY(0.9rem);
+}
+
+.menu__checkbox:checked ~ .menu__button .menu__button-bar:nth-child(3) {
+    transform: rotate(45deg) scale(1.2) translateY(-1rem);
+}
+
+@media screen and (min-width: 768px) {
+    .menu__checkbox {
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.profile__image {
+    border: 0.2rem solid var(--border-profile-image);
+    position: absolute;
+    left: 3.3rem;
+    top: 3.7rem;
+}
+
+
+
+.profile__image:hover ~ .profile__info {
+    opacity: 1;
+}

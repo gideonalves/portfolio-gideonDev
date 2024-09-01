@@ -1,0 +1,11 @@
+.is-button-primary {
+    color: var(--font-white);
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 4.7rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    text-align: center;
+    width: 15.8rem;
+}

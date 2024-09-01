@@ -1,0 +1,15 @@
+.about-me {
+    align-items: center;
+    background: var(--bg-section);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about-me {
+        gap: 6rem;
+    }
+}

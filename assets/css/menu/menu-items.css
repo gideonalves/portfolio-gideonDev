@@ -1,0 +1,25 @@
+.menu__items {
+    border-bottom: 0.5rem solid var(--border-menu-items);
+    background: var(--bg-menu-items);
+    backdrop-filter: blur(0.25rem);
+    list-style: none;
+    left: -100%;
+    position: absolute;
+    top: 5rem;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__items {
+        align-items: center;
+        background: transparent;
+        border: none;
+        display: flex;
+        gap: 3rem;
+        top: 0;
+        position: static;
+        width: fit-content;
+    }
+}

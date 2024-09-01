@@ -1,0 +1,4 @@
+.academic-education__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}

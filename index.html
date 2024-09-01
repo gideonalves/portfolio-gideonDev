@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gideon - Front-End</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oxanium:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <img class="menu__logo" src="./assets/image/logo.svg" alt="Logo">
+            <input class="menu__checkbox" type="checkbox">
+            <ul class="menu__items">
+                <li class="menu__item">
+                    <a class="menu__link" href="#about-me">Sobre Mim</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#skills">Skills</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#hobbies">Hobbies</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#education">Formação</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projects">Projeto</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contact">Contato</a>
+                </li>
+                <li class="menu__item">
+                    <img class="menu__icone js-button-theme" src="./assets/image/sun.svg" alt="Icone de um sol"/>
+                </li>
+            </ul>
+            <div class="menu__button">
+                <div class="menu__button-bar"></div>
+                <div class="menu__button-bar"></div>
+                <div class="menu__button-bar"></div>
+            </div>
+        </nav>
+        <div class="header__wrapper-headline">
+            <section class="headline">
+                <h1 class="headline__title"><span class="headline__mark">&lt;Gideon /&gt;</span> <br/> Desenvolvedor Front-End</h1>
+                <p class="headline__description">
+                    Olá, eu me chamo Gideon e sou um desenvolvedor Front-end,  Apaixonado por tecnologia que decidiu trilhar o caminho da programação. Atualmente estou focando
+                    nas tecnologias voltadas ao FrontEnd.
+                </p>
+                <div class="headline__buttons">
+                    <a class="headline__button-linkedin is-button-primary" title="Linkedin" href="https://www.linkedin.com/in/gideon-alves/" target="_blank">Linkedin</a>
+                    <a class="headline__button-github is-button-primary" title="Github" href="https://github.com/gideonalves" target="_blank">Github</a>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-me" id="about-me">
+            <div class="profile">
+                <div class="profile__wrapper">
+                    <div class="profile__bar"></div>
+                    <div class="profile__info">
+                        <p><strong>Nome:</strong> Gideon</p>
+                        <p><strong>Idade:</strong> 42 anos</p>
+                        <p><strong>Nacionalidade:</strong> Brasileiro</p>
+                    </div>
+                    <img class="profile__image" loading="lazy" src="./assets/image/Gideon.jpg" alt="Imagem de perfil">
+                    <span class="profile__warning">Passe o Mouse</span>
+                </div>
+                <div class="profile__social-network">
+                    <a class="profile__link" title="Linkedin" href="https://www.linkedin.com/in/gideon-alves/" target="_blank">
+                        <img class="profile__img-network" src="./assets/image/svg/likedin.svg" alt="Icone do Linkedin">
+                    </a>
+                    <a class="profile__link" title="Github" href="https://github.com/gideonalves" target="_blank">
+                        <img class="profile__img-network" src="./assets/image/svg/github.svg" alt="Icone do Github">
+                    </a>
+                    <a class="profile__link" title="Youtube" href="https://www.youtube.com/channel/UCKt5HJH_2ExCxveTITjwx1Q"
+                     target="_blank">                           
+                        <img class="profile__img-network" src="./assets/image/svg/youtube.svg" alt="Icone do Youtube">
+                    </a>
+                </div>
+            </div>
+            <div class="about-me__biography">
+                <h2 class="about-me__title is-section-title">Sobre mim</h2>
+                <p class="about-me__paragraphy">
+                    Olá, eu me chamo Gideon, sempre gostei de tecnologia em 1999 comecei a estudar eletrônica. no ano de 2019 Comprei um curso de arduino comecei a estudar fui me apaixonando por programação depois disso comecei a fazer uns bootcamps.
+                </p>
+                <p class="about-me__paragraphy">
+                    Além de estudar sobre front-end, e também back-end e UI porque assim não só serei um bom profissional, mas também serei capaz de criar minhas próprias aplicações com boa performance e desing atraente e intuitivo.
+                </p>
+                <a class="about-me__curriculum is-button-primary" title="Botão para visualizar o currículo em PDF" href="#" target="_blank">Currículo</a>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h2 class="skills__title is-section-title">Skills</h2>
+            <div class="skills__wrapper-image">
+                <img class="skills__image" src="./assets/image/svg/html5.svg" alt="HTML 5">
+                <img class="skills__image" src="./assets/image/svg/css3.svg" alt="CSS 3">
+                <img class="skills__image" src="./assets/image/svg/js.svg" alt="Javascript">
+                <img class="skills__image" src="./assets/image/svg/git.svg" alt="Git">
+                <img class="skills__image" src="./assets/image/svg/github-black.svg" alt="Github">
+            </div>
+        </section>
+        <section class="hobbies" id="hobbies">
+            <h2 class="hobbies__title is-section-title">Hobbies</h2>
+            <p class="hobbies__paragraphy">
+                No meu tempo livre eu gosto fazer caminhada e estudar tecnoloiga e escutar louvores.
+            </p>
+            <ul class="hobbies__items">
+                <li class="hobbies__item">
+                    <h3 class="hobbies__name">Ouvir Louvor</h3>
+                    <img class="hobbies__image" src="./assets/image/louvor.jpg" alt="Louvor">
+                </li>
+                <li class="hobbies__item">
+                    <h3 class="hobbies__name">Tecnologia</h3>
+                    <img class="hobbies__image" src="./assets/image/tecnologia.jpg" alt="Anime Death Note">
+                </li>
+          
+            </ul>
+        </section>
+        <section class="academic-education" id="education">
+            <h2 class="academic-education__title is-section-title">Formação Acadêmica</h2>
+            <div class="academic-education__wrapper">
+                <figure class="academic-education__card">
+                    <img class="academic-education__image" loading="lazy" src="./assets/image/one-alura.jpg" alt="Programa ONE - Oracle Next Education com a escola Alura">
+                    <figcaption>
+                        <h3 class="academic-education__name">Formação em Front-end</h3>
+                        <span class="academic-education__year">Em andamento - Alura</span>
+                    </figcaption>
+                </figure>
+                <figure class="academic-education__card">
+                    <img class="academic-education__image" loading="lazy" src="./assets/image/prati.jpg" alt="Escola MicroWorld">
+                    <figcaption>
+                        <h3 class="academic-education__name">Formação em Front-end</h3>
+                        <span class="academic-education__year">Em andamento - +Prati</span>
+                    </figcaption>
+                </figure>        
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="projects__title is-section-title">Projetos</h2>
+            <div class="projects__buttons">
+                <span class="projects__button is-button-primary is-selected">Rocketseat</span>
+                <span class="projects__button is-button-primary">ONE - Alura</span>
+                <span class="projects__button is-button-primary">Meus Projetos</span>
+            </div>
+            <p class="projects__warning js-project-warning">
+                A Rocketseat é uma escola de programação e todos os projeto aqui foram desenvolvidos em eventos e desafio como o #boraCodar 
+            </p>
+            <div class="projects__content">
+                <div class="projects__wrapper js-projects projects--rocketseat is-visible">
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            Projeto: ToDo Ignite <br/><br>
+                            Esse projeto foi desenvolvido na aula do primeiro módulo de React
+                            da Rocketseat
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="https://github.com/gideonalves/desafio-todoList-rocketseat" target="_blank">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="https://desafio-todo-list-rocketseat-rose.vercel.app/" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            Projeto: Doctor Care <br><br>
+                            Aplicação no formato de landing page, responsiva, desenvolvida durante a NLW Return da @Rocketseat.
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="https://github.com/gideonalves/MissionOrigin" target="_blank">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="https://mission-origin-seven.vercel.app/" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            Projeto: beautysalon. <br><br>
+                            OriginSix é uma página institucional no formato One Page
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="https://github.com/gideonalves/nlw-origin" target="_blank">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="https://gideonalves.github.io/nlw-origin/" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            Projeto: Media Play <br><br>
+                            Esse projeto foi desenvolvido no desafio #boraCodar da Rocketseat
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="https://github.com/gideonalves/IgniteFeed" target="_blank">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="projects__wrapper js-projects projects--one-alura">
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            Projeto: Encriptador de texto <br><br>
+                            Esse projeto foi desenvolvido no 1º challenge do programa ONE
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="https://github.com/gideonalves/Alura-Oracle-Challenge" target="_blank">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+    
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="#">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="#">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+                           
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="#">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#">Deploy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__wrapper js-projects projects--my-projects">
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            Projeto: Caravan <br><br>
+                            Site de agencia de viagem
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="https://github.com/gideonalves/caravan" target="_blank">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="https://zippy-dusk-46cb76.netlify.app/" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+    
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="#">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+                            
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="#">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#">Deploy</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__project">
+                        <p class="projects__description">
+                           
+                        </p>
+                        <div class="projects__links">
+                            <a class="projects__link" title="Repositório do projeto no Github" href="#">Repositório</a>
+                            <a class="projects__link" title="Deploy do projeto" href="#">Deploy</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__wrapper-content">
+                <h2 class="contact__title is-section-title">Contato</h2>
+                <form class="contact__form" action="#">
+                    <fieldset class="contact__group">
+                        <legend class="contact__legend">Campos de Contato</legend>
+                        <div class="contact__wrapper-input">
+                            <input class="contact__input" id="name" type="text" name="name" required>
+                            <label class="contact__label" for="name">Nome</label>
+                        </div>
+                
+                        <div class="contact__wrapper-input">
+                            <input class="contact__input" id="email" type="text" name="email" required>
+                            <label class="contact__label" for="email">Email</label>
+                        </div>
+                        <div class="contact__wrapper-input">
+                            <input class="contact__input" id="subject" type="text" name="subject" required>
+                            <label class="contact__label" for="subject">Assunto</label>
+                        </div>
+                        <div class="contact__wrapper-input">
+                            <textarea class="contact__message" name="message" id="message" required></textarea>
+                            <label class="contact__label" for="subject">Mensagem</label>
+                        </div>
+                        <button class="contact__submit is-button-primary">Enviar mensagem</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        
+
+    </main>
+    <footer class="footer">
+        <p>
+            © 2024 Gideon - Desenvolvedor Front-end. Todos os direitos reservados.
+        </p>
+    </footer>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Voltar ao topo">↑</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>

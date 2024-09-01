@@ -1,0 +1,112 @@
+
+/* Importando estilo CSS de modificadores de componentes */
+@import url(./isButtonPrimary.css);
+@import url(./isSectionTitle.css);
+@import url(./scroll.css);
+
+/* Importando estilo CSS dos componentes Header */
+@import url(./header/header.css);
+@import url(./header/header-wrapperHeadline.css);
+
+
+/* Importando estilos CSS dos componentes Menu */
+@import url(./menu/menu.css);
+@import url(./menu/menu-logo.css);
+@import url(./menu/menu-items.css);
+@import url(./menu/menu-item.css);
+@import url(./menu/menu-link.css);
+@import url(./menu/menu-icone.css);
+@import url(./menu/menu-button.css);
+@import url(./menu/menu-checkbox.css);
+@import url(./menu/menu-buttonBar.css);
+
+
+/* Importando estilos CSS dos componentes Headline */
+@import url(./headline/headline.css);
+@import url(./headline/headline-title.css);
+@import url(./headline/headline-mark.css);
+@import url(./headline/headline-description.css);
+@import url(./headline/headline-buttons.css);
+@import url(./headline/headline-buttonLinkedin.css);
+@import url(./headline/headline-buttonGithub.css);
+
+
+/* Importando estilo CSS dos componentes About me */
+@import url(./aboutMe/aboutMe.css);
+@import url(./aboutMe/aboutMe-title.css);
+@import url(./aboutMe/aboutMe-biography.css);
+@import url(./aboutMe/aboutMe-paragraphy.css);
+@import url(./aboutMe/aboutMe-curriculum.css);
+
+/* Importando estilos CSS dos componentes Profile */
+@import url(./profile/profile.css);
+@import url(./profile/profile-wrapper.css);
+@import url(./profile/profile-bar.css);
+@import url(./profile/profile-info.css);
+@import url(./profile/profile-link.css);
+@import url(./profile/profile-image.css);
+@import url(./profile/profile-warning.css);
+@import url(./profile/profile-socialNetwork.css);
+@import url(./profile/profile-imgNetwork.css);
+
+/* Importando estilos CSS dos componentes Skills*/
+@import url(./skills/skills.css);
+@import url(./skills/skills-title.css);
+@import url(./skills/skills-image.css);
+@import url(./skills/skills-wrapperImage.css);
+
+
+/* Importando estilos CSS dos componentes Hobbies */
+@import url(./hobbies/hobbies.css);
+@import url(./hobbies/hobbies-title.css);
+@import url(./hobbies/hobbies-paragraphy.css);
+@import url(./hobbies/hobbies-items.css);
+@import url(./hobbies/hobbies-item.css);
+@import url(./hobbies/hobbies-name.css);
+@import url(./hobbies/hobbies-image.css);
+
+/* Importando estilos CSS dos componentes Academic Education */
+@import url(./academicEducation/academicEducation.css);
+@import url(./academicEducation/academicEducation-title.css);
+@import url(./academicEducation/academicEducation-card.css);
+@import url(./academicEducation/academicEducation-wrapper.css);
+@import url(./academicEducation/academicEducation-image.css);
+
+
+/* Importando estilos CSS dos componentes Projects */
+@import url(./projects/projects.css);
+@import url(./projects/projects-title.css);
+@import url(./projects/projects-buttons.css);
+@import url(./projects/projects-button.css);
+@import url(./projects/projects-warning.css);
+@import url(./projects/projects-content.css);
+@import url(./projects/projects-wrapper.css);
+@import url(./projects/projects-project.css);
+@import url(./projects/projects-description.css);
+@import url(./projects/projects-rocketseat.css);
+@import url(./projects/projects-oneAlura.css);
+@import url(./projects/projects-my-projects.css);
+@import url(./projects/projects-link.css);
+@import url(./projects/projects-links.css);
+@import url(./is-selected.css);
+@import url(./is-visible.css);
+
+/* Importando estilos CSS dos componentes Contact */
+@import url(./contact/contact.css);
+@import url(./contact/contact-wrapperContent.css);
+@import url(./contact/contact-title.css);
+@import url(./contact/contact-form.css);
+@import url(./contact/contact-group.css);
+@import url(./contact/contact-legend.css);
+@import url(./contact/contact-label.css);
+@import url(./contact/contact-input.css);
+@import url(./contact/contact-message.css);
+@import url(./contact/contact-wrapperInput.css);
+@import url(./contact/contact-submit.css);
+
+
+/* Importando estilos CSS dos componentes Footer */
+@import url(./footer.css);
+
+
+

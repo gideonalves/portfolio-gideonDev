@@ -1,0 +1,15 @@
+.skills__wrapper-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    margin: 6rem auto 0;
+    width: 88%;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__wrapper-image {
+        gap: 10rem;
+        margin-top: 15.7rem;
+    }
+}

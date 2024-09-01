@@ -1,0 +1,14 @@
+.skills {
+    background: var(--bg-skills) no-repeat center / cover;
+    background-attachment: fixed;
+    min-height: 30rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills {
+        min-height: 100vh;
+        height: 100%;
+        padding-bottom: 10rem;
+    }
+}

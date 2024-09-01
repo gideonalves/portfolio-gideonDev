@@ -1,0 +1,31 @@
+.contact__input {
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.8rem;
+    height: 6rem;
+    padding: 1.9rem 2rem 1.4rem;
+    width: 100%;
+}
+
+.contact__input:invalid, 
+.contact__message:invalid {
+    border: 2px solid red;
+}
+
+.contact__input:invalid + .contact__label,
+.contact__message:invalid + .contact__label {
+    color: red;
+}
+
+.contact__input:focus + .contact__label,
+.contact__input:valid + .contact__label,
+.contact__message:focus + .contact__label,
+.contact__message:valid + .contact__label {
+    font-size: 1.4rem;
+    top: 0.5rem;
+}
+
+.contact__input:not(:placeholder-shown):valid + .contact__label,
+.contact__message:not(:placeholder-shown):valid + .contact__label {
+    color: var(--color-contact-input);
+}

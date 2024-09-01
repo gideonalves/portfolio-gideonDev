@@ -1,0 +1,23 @@
+.projects--one-alura {
+    display: none;
+}
+
+.projects--one-alura .projects__project:nth-child(1) {
+    background: url(../../image/projects/project-5.png) no-repeat right bottom 1.2rem / 21.2rem, var(--bg-projects-project);
+}
+
+.projects--one-alura .projects__project:nth-child(n+2) {
+    background: var(--bg-projects-coming-soon) no-repeat right bottom 1.2rem / 21.2rem, var(--bg-projects-project);
+    height: 18.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    .projects--one-alura .projects__project:nth-child(1) {
+        background: url(../../image/projects/project-5.png) no-repeat right bottom 1.2rem / 34rem, var(--bg-projects-project);
+    }
+
+    .projects--one-alura .projects__project:nth-child(n+2) {
+        background: var(--bg-projects-coming-soon) no-repeat right bottom 1.2rem / 34rem, var(--bg-projects-project);
+        height: 28.6rem;
+    }
+}

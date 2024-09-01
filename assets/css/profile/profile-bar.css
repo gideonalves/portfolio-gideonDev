@@ -1,0 +1,5 @@
+.profile__bar {
+    background: var(--bg-profile-bar) var(--bg-profile-bar-img) no-repeat center right 1.5rem;
+    height: 2.4rem;
+    width: 100%;
+}

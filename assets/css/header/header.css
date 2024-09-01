@@ -1,0 +1,9 @@
+.header {
+    padding-bottom: 10rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        height: 100vh;
+    }
+}

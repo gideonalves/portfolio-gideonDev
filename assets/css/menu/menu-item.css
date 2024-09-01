@@ -1,0 +1,16 @@
+.menu__item:hover {
+    background: var(--bg-menu-item-hover);
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu__item:not(:last-child) {
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.7rem;
+        transition: all .4s ease-in-out;
+    }
+
+    .menu__item:last-child {
+        background: none;
+    }
+}

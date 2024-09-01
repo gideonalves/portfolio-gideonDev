@@ -1,0 +1,15 @@
+.about-me__biography {
+    color: var(--font-color-text);
+    display: grid;
+    font-size: 1.6rem;
+    gap: 3rem;
+    width: 88%;
+    max-width: 66rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about-me__biography { 
+        gap: 2.3rem;
+    }
+}

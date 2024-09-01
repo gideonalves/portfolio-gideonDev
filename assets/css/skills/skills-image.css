@@ -1,0 +1,9 @@
+.theme-dark .skills__image {
+    filter: invert(100%);
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__image {
+        height: 14rem;
+    }
+}

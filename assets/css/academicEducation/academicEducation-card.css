@@ -1,0 +1,17 @@
+.academic-education__card {
+    color: var(--font-color-text);
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 35.0rem;
+    width: 88%;
+}
+
+:where(.academic-education__card) .academic-education__name {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+:where(.academic-education__card) .academic-education__year {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}

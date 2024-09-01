@@ -1,0 +1,9 @@
+.contact__label {
+    display: block;
+    font-size: 1.8rem;
+    position: absolute;
+    pointer-events: none;
+    left: 2rem;
+    top: 2rem;
+    transition: all .5s ease-in-out;
+}

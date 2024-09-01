@@ -1,0 +1,7 @@
+.profile__info {
+    color: var(--color-profile-info);
+    font-size: 1.6rem;
+    line-height: 160%;
+    margin-top: -10rem;
+    opacity: 0;
+}

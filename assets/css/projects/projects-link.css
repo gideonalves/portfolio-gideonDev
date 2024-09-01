@@ -1,0 +1,41 @@
+.projects__link {
+    border-radius: 0.5rem;
+    color: var(--font-color-text);
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.projects__link:nth-child(1) {
+    background: var(--bg-projects-link) url(../../image/svg/github.svg) no-repeat left 0.8rem center / 1.2rem;
+    padding-left: 2.4rem;
+}
+
+.projects__link:nth-child(2) {
+    background: var(--bg-projects-link) url(../../image/svg/cloud.svg) no-repeat left 0.8rem center / 1.3rem;
+    padding-left: 3rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .projects__link {
+        font-size: 1.4rem;
+        line-height: 3.4rem;
+        background-size: 1.8rem;
+    }
+
+    .projects__link:nth-child(1) {
+        background: var(--bg-projects-link) url(../../image/svg/github.svg) no-repeat left 1.5rem center / 1.8rem;
+        padding-left: 4.4rem;
+    }
+    
+    .projects__link:nth-child(2) {
+        background: var(--bg-projects-link) url(../../image/svg/cloud.svg) no-repeat left 1.5rem center / 1.9rem;
+        padding-left: 5.5rem;
+    }
+ 
+}
+
+.projects__link:hover {
+    background-color: var(--bg-projects-link-hover);
+}

@@ -1,0 +1,9 @@
+.headline__button-github {
+    color: var(--font-color-text);
+    background: var(--bg-headline-button-github) url(../../image/svg/github.svg) no-repeat center left 2.7rem / 2.4rem;
+}
+
+.headline__button-github:hover {
+    background: var(--bg-headline-button-github-hover) url(../../image/svg/github.svg) no-repeat center left 2.7rem / 2.4rem;
+    transition: all 0.3s ease-in-out;
+}

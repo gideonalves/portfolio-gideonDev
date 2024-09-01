@@ -1,0 +1,7 @@
+.hobbies__items {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-top: 7.1rem;
+}

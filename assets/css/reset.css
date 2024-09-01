@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --theme-color: #0066ff;
+    --bg-button-secondary: #000000;
+    --font-color-section-title: #000000;
+
+    --bg-body: #EAECEF;
+    --bg-contact: url(../../image/svg/background-contact.svg);
+    --bg-headline: url(../../image/svg/computer-day.svg);
+    --bg-headline-button-linkedin:#0066ff;
+    --bg-headline-button-linkedin-hover:#000000;
+    --bg-headline-button-github: var(--bg-button-secondary);
+    --bg-headline-button-github-hover: #0066FF;
+
+    --bg-about-me-curriculum: var(--bg-button-secondary);
+    --bg-about-me-curriculum-hover: var(--theme-color);
+    --bg-contact-submit: var(--bg-button-secondary);
+    --bg-button-is-selected: var(--theme-color);
+    --bg-hobbies-item-headphone: url(../../image/svg/headphone.svg);
+    --bg-hobbies-item-tv: url(../../image/svg/tv.svg);
+    --bg-header-wrapper-headline: url(../../image/svg/computer-day.svg) no-repeat top 60% right 10% / 59rem;
+    --bg-hobbies-image: #FFFFFF;
+    --bg-menu-items: rgba(255, 255, 255, 0.5);
+    --bg-menu-item-hover: var(--theme-color);
+
+    --bg-profile-wrapper: #FFFFFF;
+    --bg-profile-bar: #E6E6E6;
+    --bg-profile-bar-img: url(../../image/svg/button-interface.svg);
+
+    --bg-projects-button: var(--bg-button-secondary);
+    --bg-projects-link: var(--bg-button-secondary);
+    --bg-projects-link-hover: #0039e3;
+    --bg-projects-coming-soon: url(../../image/projects/coming-soon-1.png);
+    --bg-projects-warning: #CCCCCC;
+    --bg-projects-warning-icon: url(../../image/svg/information.svg);
+    --bg-projects-button-hover: var(--theme-color);
+    --bg-projects-project: linear-gradient(180deg, var(--theme-color) 0%, rgba(143, 188, 255, 0) 100%);
+    
+    --bg-section: var(--theme-color);
+    --bg-skills: rgba(219, 219, 219, 0.5) url(../../image/background-codes.jpg);
+
+    --border-button-hover: var(--theme-color);
+    --border-menu: #DDDDDD;
+    --border-menu-items: var(--theme-color);
+    --border-projects-project: var(--theme-color);
+    --border-profile-image: #000000;
+    --box-shadow-projects-project: var(--theme-color);
+    
+    --color-headline-mark: #0066FF;
+    --color-contact-input: #0066FF;
+    --color-profile-info: #000000;
+
+    --font-color-text: #FFFFFF;
+    --font-color-footer: #000000;
+    --font-color-headline-title: #000000;
+    --font-color-academic-education-title: #FFFFFF;
+    --font-color-hobbies-name: #464646;
+    --font-color-menu-link-hover: #FFFFFF;
+    --font-color-contact-title: var(--font-color-section-title);
+    --font-color-hobbies-title: var(--font-color-section-title);
+    --font-color-projects-title: var(--font-color-section-title);
+    --font-color-profile-warning: #000000;
+    --font-color-projects-warning: #000000;
+    --font-color-hobbies-paragraphy: #000000;
+    --font-color-projects-description: #000000;
+    --font-color-skills-title: var(--font-color-section-title);
+    --font-secondary: 'Oxanium', cursive;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.theme-dark:root {
+    --theme-color: #194D2E;
+    --font-color-section-title: #FFFFFF;
+
+    --bg-body: #121212;
+    --bg-contact: url(../../image/svg/background-contact-2.svg);
+    --bg-header-wrapper-headline: url(../../image/svg/computer-night.svg) no-repeat top right 10% / 53rem;
+    --bg-menu-items: rgba(0, 0, 0, 0.5);
+    --bg-menu-item-hover: var(--theme-color);
+    --bg-headline: url(../../image/svg/computer-night.svg);
+    --bg-hobbies-image: #080808;
+    --bg-hobbies-item-headphone: url(../../image/svg/headphone-2.svg);
+    --bg-hobbies-item-tv: url(../../image/svg/tv-2.svg);
+
+    --bg-projects-coming-soon: url(../../image/projects/coming-soon-2.png);
+    --bg-projects-warning: #323232;
+    --bg-projects-link-hover: #008b38;
+    --bg-projects-project: linear-gradient(180deg, var(--theme-color) 0%, #606060 100%);
+    --bg-profile-bar: #080808;
+    --bg-profile-wrapper: #121212;
+    --bg-projects-warning-icon: url(../../image/svg/information-2.svg);
+    --bg-profile-bar-img: url(../../image/svg/button-interface-2.svg);
+    --bg-skills: rgba(30, 30, 31, 0.5) url(../../image/background-codes-2.png);
+
+    --border-menu: #000000;
+    --border-menu-items: #194D2E;
+    --color-profile-info: #FFFFFF;
+
+    --font-color: #FFFFFF;
+    --font-color-footer: #FFFFFF;
+    --font-color-headline-title: #FFFFFF;
+    --font-color-hobbies-name: #CCCCCC;
+    --font-color-profile-warning: #FFFFFF;
+    --font-color-hobbies-paragraphy: #FFFFFF;
+    --font-color-projects-warning: #FFFFFF;
+    --font-color-projects-description: #FFFFFF;
+    --menu-link-color: #FFFFFF;
+}
+
+
+body {
+    font-size: 1.4rem;
+    background-color: var(--bg-body);
+}

@@ -1,0 +1,16 @@
+.contact__submit {
+    background: var(--bg-contact-submit);
+    border: none;
+    color: var(--font-color-text);
+    cursor: pointer;
+    font-weight: 400;
+    margin: 4rem 0 8rem;
+    padding: 0 1.9rem;
+    width: fit-content;
+}
+
+.contact__submit:hover {
+    background: transparent;
+    outline: 0.2rem solid #000000;
+    transition: all 0.2s linear;
+}

@@ -1,0 +1,7 @@
+.menu__logo {
+    height: 1.5rem;
+}
+
+.theme-dark .menu__logo {
+    filter: invert(100%);
+}

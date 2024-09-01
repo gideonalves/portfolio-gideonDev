@@ -1,0 +1,23 @@
+/* .menu {
+    display: flex;
+    border-bottom: 1px solid var(--border-menu);
+    height: 5rem;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    position: relative;
+
+}
+ */
+ .menu {
+    display: flex;
+    border-bottom: 1px solid var(--border-menu);
+    height: 5rem;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-color, #fff); /* Add a background color */
+    z-index: 1000; /* Ensure the menu stays on top of other elements */
+}

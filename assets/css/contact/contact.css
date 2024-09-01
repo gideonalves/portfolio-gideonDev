@@ -1,0 +1,26 @@
+.contact {
+    background: url(../../image/svg/computer-0.svg) no-repeat top 12rem center, var(--bg-contact) no-repeat top 9.6rem center / cover;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        background: url(../../image/svg/computer-0.svg) no-repeat left 8% top 60% / 30%, var(--bg-contact) no-repeat top center / cover;
+
+        display: flex;
+        justify-content: right;
+        padding-right: 5rem;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .contact {
+        background: url(../../image/svg/computer-0.svg) no-repeat left 10% top 14rem / 56rem, var(--bg-contact) no-repeat top -6rem center / cover;
+
+        display: flex;
+        justify-content: right;
+        padding-right: 7%;
+    }
+}

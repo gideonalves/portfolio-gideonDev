@@ -1,0 +1,14 @@
+.projects__warning {
+    color: var(--font-color-projects-warning);
+    background: var(--bg-projects-warning) var(--bg-projects-warning-icon) no-repeat left 1.5rem top 1.3rem;
+    margin: 2rem auto 4rem;
+    padding: 1.1rem 1.5rem 1.1rem 6.8rem; 
+    max-width: 56.0rem;
+    width: 90.4%;
+}
+
+@media screen and (min-width: 768px) {
+    .projects__warning {
+        text-align: center;
+    }
+}

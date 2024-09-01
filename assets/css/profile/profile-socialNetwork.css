@@ -1,0 +1,7 @@
+.profile__social-network {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2.7rem;
+}

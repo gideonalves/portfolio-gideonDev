@@ -1,0 +1,20 @@
+.menu__link {
+    color: var(--font-color);
+    border-bottom: 1px solid var(--border-menu-items);
+    display: block;
+    font-family: var(--font-menu-link);
+    font-size: 1.4rem;
+    line-height: calc(3rem - 1.1rem); 
+    padding: 0.5rem 0rem;   
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: var(--font-color-menu-link-hover);
+}
+
+@media screen and (min-width: 768px) {
+    .menu__link {
+        border: none;
+    }
+}

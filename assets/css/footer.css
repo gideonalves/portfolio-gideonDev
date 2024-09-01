@@ -1,0 +1,6 @@
+.footer {
+    background: var(--bg-body);
+    color: var(--font-color-footer);
+    line-height: 7rem;
+    text-align: center
+}

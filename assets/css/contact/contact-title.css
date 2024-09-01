@@ -1,0 +1,9 @@
+.contact__title {
+    color: var(--font-color-contact-title);
+}
+
+@media screen and (min-width: 1024px) {
+    .contact__title {
+        text-align: left;
+    }
+}

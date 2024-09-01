@@ -1,0 +1,20 @@
+.projects__button {
+    color: var(--font-color-text);
+    background: var(--bg-projects-button);
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: initial;
+    width: 11.0rem;
+}
+
+.projects__button:hover {
+    background: var(--bg-projects-button-hover);
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+    .projects__button {
+        padding: 0 1.8rem;
+        width: fit-content;
+    }
+}

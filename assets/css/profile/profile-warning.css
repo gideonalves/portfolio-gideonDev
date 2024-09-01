@@ -1,0 +1,5 @@
+.profile__warning {
+    color: var(--font-color-profile-warning);
+    display: block;
+    margin-bottom: 0.5rem;
+}

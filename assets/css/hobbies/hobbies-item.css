@@ -1,0 +1,14 @@
+.hobbies__item {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    padding-top: 3.5rem;
+}
+
+.hobbies__item:first-child {
+    background: var(--bg-hobbies-item-headphone) no-repeat left top;
+}
+
+.hobbies__item:nth-child(n+2) {
+    background: var(--bg-hobbies-item-tv) no-repeat left top;
+}

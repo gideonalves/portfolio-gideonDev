@@ -1,0 +1,13 @@
+.projects__description {
+    color: var(--font-color-projects-description);
+    font-size: 1rem;
+    font-weight: 500;
+    width: 13.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    .projects__description {
+        font-size: 1.4rem;
+        width: 20rem;
+    }
+}

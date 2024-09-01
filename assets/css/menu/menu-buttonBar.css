@@ -1,0 +1,6 @@
+.menu__button-bar {
+    background: var(--font-color-text);
+    height: .3rem;
+    width: 2rem;
+    transition: all 0.5s ease-in-out;
+}

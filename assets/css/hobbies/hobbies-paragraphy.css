@@ -1,0 +1,13 @@
+.hobbies__paragraphy {
+    color: var(--font-color-hobbies-paragraphy);
+    font-size: 1.6rem;
+    margin: 2rem auto 3.3rem;
+    width: 88%;
+    max-width: 88.9rem;
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies__paragraphy {
+        text-align: center;
+    }
+}

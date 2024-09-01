@@ -1,0 +1,5 @@
+@media screen and (min-width: 1024px) {
+    .contact__wrapper-content {
+        width: 56rem;
+    }
+}

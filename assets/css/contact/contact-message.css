@@ -1,0 +1,10 @@
+.contact__message {
+    border-radius: 0.5rem;
+    border: none;
+    display: block;
+    font-size: 1.8rem;
+    height: 12.0rem;
+    padding: 2rem;
+    resize: none;
+    width: 100%;
+}

@@ -1,0 +1,5 @@
+.profile__link:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.4);
+    filter: invert(100%);
+}

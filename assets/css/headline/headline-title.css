@@ -1,0 +1,12 @@
+.headline__title {
+    color: var(--font-color-headline-title);
+    font-family:var(--font-secondary);
+    font-size: 3.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .headline__title {
+        font-size: 4.8rem;
+    }
+}
+

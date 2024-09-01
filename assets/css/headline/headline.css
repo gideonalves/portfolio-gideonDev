@@ -1,0 +1,23 @@
+.headline {
+    background: var(--bg-headline) no-repeat center top 4rem / 20rem;
+    margin: 0 auto;
+    max-width: 68.2rem;
+    padding-top: 18rem;
+    width: 89.6%;
+}
+
+.theme-dark .headline {
+    background: var(--bg-headline) no-repeat center top / 20rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .headline {
+        background: none;
+        margin: initial;
+        padding-top: initial;
+    }
+
+    .theme-dark .headline {
+        background: none;
+    }
+}

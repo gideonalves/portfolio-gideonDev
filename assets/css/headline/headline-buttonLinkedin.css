@@ -1,0 +1,9 @@
+.headline__button-linkedin {
+    color: var(--font-color-text);
+    background: var(--bg-headline-button-linkedin) url(../../image/svg/likedin.svg) no-repeat center left 2.7rem;
+}
+
+.headline__button-linkedin:hover {
+    background: var(--bg-headline-button-linkedin-hover) url(../../image/svg/likedin.svg) no-repeat center left 2.7rem;
+    transition: all 0.3s ease-in-out;
+}
